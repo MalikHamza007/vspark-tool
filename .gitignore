@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+# Build output
+dist/
+out-tsc/
+.angular/
+*.zip
+# Environment & secrets
+.env
+.env.*
+!.env.example
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+# Tooling
+.impeccable/review/
+.impeccable/mocks/
+.claude/
+coverage/
+*.log
+npm-debug.log*
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
